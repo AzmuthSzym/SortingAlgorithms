@@ -15,10 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BubbleSort.cpp">
+    <ClInclude Include="BubbleSort.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SelectionSort.cpp">
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SortingAlgorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
