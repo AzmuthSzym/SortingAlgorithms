@@ -1,6 +1,6 @@
 #pragma once
 
-void selection_sort(int arr[], int n)
+void SelectionSort(int arr[], int n)
 {
     int i, j;
     int min_id;

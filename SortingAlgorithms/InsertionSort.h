@@ -1,6 +1,6 @@
 #pragma once
 
-void insertion_sort(int arr[], int n)
+void InsertionSort(int arr[], int n)
 {
     for (int i = 1; i < n; i++)
     {
