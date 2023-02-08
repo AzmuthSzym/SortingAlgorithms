@@ -21,6 +21,9 @@
     <ClInclude Include="SelectionSort.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SortingAlgorithms.cpp">

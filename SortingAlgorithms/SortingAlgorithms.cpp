@@ -4,6 +4,7 @@
 #include <iostream>
 #include "BubbleSort.h"
 #include "SelectionSort.h"
+#include "InsertionSort.h"
 
 using namespace std;
 
@@ -29,9 +30,15 @@ int main()
     printArray(test_arr);
     cout << "----------------------------------------\n" << endl;
 
-    cout << "BUBBLE SORT" << endl;
+    cout << "INSERTION SORT" << endl;
     cout << "----------------------------------------" << endl;
-    selection_sort(test_arr, n);
+    insertion_sort(test_arr, n);
+    printArray(test_arr);
+    cout << "----------------------------------------\n" << endl;
+
+    /*cout << "BUBBLE SORT" << endl;
+    cout << "----------------------------------------" << endl;
+    bubble_sort(test_arr, n);
     printArray(test_arr);
     cout << "----------------------------------------\n" << endl;
 
@@ -39,5 +46,5 @@ int main()
     cout << "----------------------------------------" << endl;
     selection_sort(test_arr2, n);
     printArray(test_arr2);
-    cout << "----------------------------------------\n" << endl;
+    cout << "----------------------------------------\n" << endl;*/
 }
